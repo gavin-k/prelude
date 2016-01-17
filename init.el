@@ -106,11 +106,16 @@ by Prelude.")
 (require 'prelude-editor)
 (require 'prelude-global-keybindings)
 
+;; custom stuff  Have a exception
+;; (require 'flymake-mode) ;; check the synax on programming
+
 ;; OSX specific settings
 (when (eq system-type 'darwin)
   (require 'prelude-osx))
 
 (message "Loading Prelude's modules...")
+
+(setq mac-option-modifier 'meta)
 
 ;; the modules
 (if (file-exists-p prelude-modules-file)

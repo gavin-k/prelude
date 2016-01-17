@@ -1,0 +1,52 @@
+
+;; ----- smex-history -----
+(
+ global-linum-mode
+ projectile-find-tag
+ projectile-dired
+ projectile-mode
+ projectile-display-buffer
+ package-install
+ eval-buffer
+)
+
+;; ----- smex-data -----
+(
+ (org-mode . 3)
+ (org-todo . 1)
+ (linum-mode . 6)
+ (where-is . 1)
+ (dig . 1)
+ (whois . 2)
+ (prelude-github . 2)
+ (goto-line . 1)
+ (package-refresh-contents . 4)
+ (projectile-switch-project . 1)
+ (git-timemachine . 2)
+ (gist-list . 1)
+ (text-scale-increase . 2)
+ (undo-tree-visualize . 1)
+ (shell-command . 2)
+ (kill-buffer . 1)
+ (org-todo-list . 1)
+ (todo-show . 1)
+ (global-linum-mode . 10)
+ (helm-mode . 1)
+ (package-install . 8)
+ (shell-mode . 1)
+ (shell . 1)
+ (projectile-display-buffer . 2)
+ (conf-mode . 3)
+ (format-find-file . 1)
+ (show-all . 1)
+ (describe-function . 2)
+ (menu-bar-select-buffer . 1)
+ (dired . 1)
+ (customize . 1)
+ (describe-key . 1)
+ (flymake-mode . 1)
+ (eval-buffer . 1)
+ (projectile-mode . 3)
+ (projectile-dired . 1)
+ (projectile-find-tag . 2)
+)
